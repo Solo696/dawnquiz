@@ -5,8 +5,8 @@
 // ═══════════════════════════════════════════════════════════════
 
 // ── CONFIG — fill these in from your Supabase project settings ──
-const SUPABASE_URL  = "";   // e.g. "https://xxxx.supabase.co"
-const SUPABASE_ANON = "";   // e.g. "eyJhbGci..."
+const SUPABASE_URL  = "https://ezvkmzlfcldfwcwiybzt.supabase.co";   // e.g. "https://xxxx.supabase.co"
+const SUPABASE_ANON = "sb_publishable_mHIFf-O3xWG2rN90cMptPQ_2uiPsJeL";   // e.g. "eyJhbGci..."
 
 // ── Detect if Supabase is configured ────────────────────────────
 export const supabaseEnabled = Boolean(SUPABASE_URL && SUPABASE_ANON);
